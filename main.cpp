@@ -36,13 +36,13 @@ int main()
 
     if(r1)
     {
-        cout<<"ERROR IN A"<<endl;
+        cout<<"ERROR IN A THREAD"<<endl;
 
     }
     else
         if(r2)
     {
-        cout<<"ERROR IN B"<<endl;
+        cout<<"ERROR IN B THREAD"<<endl;
     }
       pthread_join(t1,NULL);
       pthread_join(t2,NULL);
