@@ -29,6 +29,7 @@ int main()
     const char *str1="THREAD A\n";
     int num1=12;
     //const char *str2="THREAD B\n";
+	//why this comment
 
     int r1,r2;
     r1=pthread_create(&t1,NULL,function,(void*) str1);
